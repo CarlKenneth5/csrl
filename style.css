@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: absolute;
+    background: url("img/bookgreen.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    top:0;
+    padding: 10px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 25px;
+    transition: all .7s ease;
+    border-radius: 15px;
+}
+.navbar ul li a:hover{
+    background-image: url("img/white.avif");
+    color: #000;
+    box-shadow: 0 0 10px #fff;
+    border-radius: 15px;
+}
+
+/*Home Section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid #fff; */
+    align-items: center;
+    position:absolute;
+    top: 230%;
+
+}
+.headings{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0px 0px;
+    color: rgb(3, 21, 179);
+            font-size: 70px;
+            text-shadow: -1px 1px 0 #bdbaba,
+                1px 1px 0 #bdbaba,
+                1px -1px 0 #bdbaba,
+                -1px -1px 0 #bdbaba;
+}
+.main p{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0px 0px;
+    color: rgb(1, 10, 88);
+    font-size: 20px;
+            text-shadow: -1px 1px 0 #858484,
+                1px 1px 0 #858484,
+                1px -1px 0 #858484,
+                -1px -1px 0 #858484;
+
+/* Footer */
+
+}
+.footer {
+    padding: 40px 0;
+    background-color: #91e4a4af;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #000000;
+}
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #b3b1b1;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.footer .social a:hover{
+    opacity: 0.9;
+}
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color:inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer ul li a:hover{
+    opacity:1;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: inherit;
+}
